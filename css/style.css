@@ -295,9 +295,6 @@ a .logo-past {
 .portfolio-link {
   text-decoration: none;
 }
-.portfolio-img {
-  margin-bottom: 20px;
-}
 .portfolio-title-secondary {
   margin-bottom: 4px;
 
@@ -312,4 +309,10 @@ a .logo-past {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.img-portfolio-caption {
+  padding: 20px 24px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
