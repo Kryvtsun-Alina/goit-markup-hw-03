@@ -136,7 +136,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.features-title {
+.title-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -266,6 +266,13 @@ a .logo-past {
   color: var(--accent-color--);
 }
 /*portfolio*/
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.portfolio-filters {
+  margin-bottom: 50px;
+}
 .filter {
   color: var(--title-text-color--);
   background-color: #f5f4fa;
@@ -284,10 +291,12 @@ a .logo-past {
 .portfolio-link {
   text-decoration: none;
 }
-.portfolio-title {
-  visibility: hidden;
+.portfolio-img {
+  margin-bottom: 20px;
 }
 .portfolio-title-secondary {
+  margin-bottom: 4px;
+
   color: var(--title-text-color--);
   font-weight: 700;
   font-size: 18px;
