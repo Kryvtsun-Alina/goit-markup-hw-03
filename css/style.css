@@ -12,6 +12,7 @@ body {
   --title-text-color--: #212121;
   --accent-color--: #2196f3;
   --primary-white-color--: #ffffff;
+  --typical-margin--: 30px;
 }
 h1,
 h2,
@@ -87,10 +88,17 @@ p {
   color: var(--accent-color--);
 }
 /*hero*/
+.hero .container {
+  text-align: center;
+}
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title-hero {
+  margin-bottom: var(--typical-margin--);
+
   color: var(--primary-white-color--);
   font-weight: 900;
   font-size: 44px;
@@ -100,11 +108,17 @@ p {
   text-transform: uppercase;
 }
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   color: var(--primary-white-color--);
   background-color: var(--accent-color--);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
 }
@@ -180,8 +194,8 @@ footer > .logo {
 a .logo-past {
   color: var(--primary-white-color--);
 }
-.logo-past:hover,
-.logo-past:focus {
+.logo .logo-past:hover,
+.logo .logo-past:focus {
   color: var(--primary-text-color--);
 }
 .footer-address {
