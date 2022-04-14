@@ -28,6 +28,9 @@ p {
   padding-left: 0;
   margin: 0;
 }
+img {
+  display: block;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -131,7 +134,7 @@ p {
 /*section features*/
 .features {
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 .features-title {
   position: absolute;
@@ -165,7 +168,6 @@ p {
 }
 /*section activity*/
 .activity {
-  padding-top: 47px;
   padding-bottom: 94px;
 }
 .container .activity-title-primary {
@@ -180,9 +182,14 @@ p {
 }
 /*section team*/
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background: #f5f4fa;
 }
 .team-title-primary {
+  margin-bottom: 50px;
+
   color: var(--title-text-color--);
   font-weight: 700;
   font-size: 36px;
@@ -190,14 +197,21 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team-photo {
+  margin-bottom: var(--typical-margin--);
+}
 .team-title-secondary {
+  margin-bottom: 10px;
+
   color: var(--title-text-color--);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.tem-text {
+.team-text {
+  margin-bottom: var(--typical-margin--);
+
   color: var(--primary-text-color--);
   font-size: 16px;
   line-height: 1.19;
