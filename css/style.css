@@ -131,7 +131,7 @@ p {
 /*section features*/
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 47px;
 }
 .features-title {
   position: absolute;
@@ -164,7 +164,13 @@ p {
   letter-spacing: 0.03em;
 }
 /*section activity*/
-.activity-title-primary {
+.activity {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+.container .activity-title-primary {
+  margin-bottom: 50px;
+
   color: var(--title-text-color--);
   font-weight: 700;
   font-size: 36px;
