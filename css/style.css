@@ -36,14 +36,20 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px dotted #e73;
 }
 
 .link.current {
   color: var(--accent-color--);
 }
+/*header*/
+.header-content {
+  display: flex;
+  align-items: center;
+}
 /*logo*/
 .logo {
+  display: block;
+
   color: var(--accent-color--);
   font-family: Raleway;
   font-weight: 700;
@@ -65,7 +71,18 @@ img {
 .list {
   list-style: none;
 }
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color--);
   font-weight: 500;
   font-size: 14px;
@@ -78,7 +95,18 @@ img {
   color: var(--accent-color--);
 }
 /*contacts*/
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
 .contacts {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color--);
   font-weight: 500;
   font-size: 14px;
