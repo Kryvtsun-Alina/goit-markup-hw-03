@@ -255,7 +255,8 @@ img {
   margin-left: 30px;
 }
 .img-team-caption {
-  padding: var(--typical-margin--);
+  padding-top: var(--typical-margin--);
+  padding-bottom: var(--typical-margin--);
   text-align: center;
 
   background: #ffffff;
@@ -338,6 +339,10 @@ a .logo-past {
   margin-bottom: 50px;
 }
 .filter {
+  min-height: 38px;
+  border-radius: 4px;
+  border-color: transparent;
+
   color: var(--title-text-color--);
   background-color: #f5f4fa;
   cursor: pointer;
@@ -388,7 +393,8 @@ a .logo-past {
   letter-spacing: 0.03em;
 }
 .img-portfolio-caption {
-  padding: 20px 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   background: #ffffff;
   border: 1px solid #eeeeee;
