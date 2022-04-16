@@ -333,6 +333,8 @@ a .logo-past {
   padding-bottom: 94px;
 }
 .portfolio-filters {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 }
 .filter {
@@ -345,6 +347,12 @@ a .logo-past {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.filters-item {
+  margin-left: 8px;
+}
+.filters-item:first-child {
+  margin-left: 0;
 }
 .filter:hover,
 .filter:focus {
